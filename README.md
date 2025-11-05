@@ -1,30 +1,33 @@
 # Homework: Proyecto Integrador - CodeBase Q&A con IA
 
-Este repositorio contiene la consigna y los scaffolds para el proyecto integrador de CodeBase Q&A con IA.
+Este repositorio contiene la consigna, los scaffolds y la resolución completa del proyecto integrador de CodeBase Q&A con IA.
 
 ## Estructura del repositorio
 
 - `consigna/`
-  - `consigna.md`: Descripción completa de la consigna del ejercicio.
-  - `datos.md`: Detalles sobre los datos disponibles.
-  - `hints.md`: Pistas y recomendaciones.
-  - `instrucciones.md`: Instrucciones detalladas.
-  - `README.md`: Guía de uso de los scaffolds.
-  - `indexer.py`: Esqueleto para configurar LlamaIndex y ChromaDB.
-  - `agent.py`: Esqueleto de agente con LangGraph.
-  - `server.py`: Scaffolding para servidor FastAPI.
-- `requirements.txt`: Dependencias de Python necesarias.
+  - Scaffold y documentación base para el ejercicio.
+- `resolucion/`
+  - Implementación completa y funcional con backend y frontend.
+
+## Archivos raíz
+
+- `requirements.txt`: Dependencias de Python.
+- `package.json`: (Opcional) Dependencias de Node.js si aplica.
 - `.gitignore`: Archivos y carpetas ignoradas por Git.
+- `LICENSE`: Licencia MIT.
+- `HOMEWORK.md`: Metadata del homework.
 
-## Cómo empezar
+## Cómo comenzar
 
-1. Crea un entorno virtual:
-   ```bash
-   python -m venv .venv
-   source .venv/bin/activate
-   ```
-2. Instala dependencias:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Lee la consigna en `consigna/consigna.md` y sigue los pasos.
+### Consigna
+
+```bash
+# Revisa la documentación y scaffolds
+cd consigna
+pip install -r requirements.txt
+# Lee el README.md para empezar
+```
+
+### Resolución
+
+Sigue las instrucciones detalladas en `resolucion/README.md`.

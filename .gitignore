@@ -59,3 +59,8 @@ coverage.xml
 
 # env files
 .env
+
+# Node
+node_modules/\.next/
+.env.local
+.DS_Store
